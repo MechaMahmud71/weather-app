@@ -18,7 +18,7 @@ fetch(`${proxy}https://www.metaweather.com/api/location/${1915035}/`)
         return resonse.json();
     })
     .then(data => {
-        console.log(data);
+//         console.log(data);
 
         const weather = {
             temp: new Array(),
@@ -66,7 +66,7 @@ fetch(`${proxy}https://www.metaweather.com/api/location/${1915035}/`)
         });
 
 
-        console.log(days);
+//         console.log(days);
 
 
         if ((hours >= 19 && hours <= 24) || (hours >= 0 && hours <= 5)) {
