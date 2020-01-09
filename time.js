@@ -35,14 +35,14 @@ document.querySelector('.date').textContent = `${date_time}/${months}/${years}`;
 
 // geting location using ip address
 
-fetch('https://extreme-ip-lookup.com/json/')
-    .then(res => res.json())
-    .then(response => {
-        console.log("conunty", response);
+// fetch('https://extreme-ip-lookup.com/json/')
+//     .then(res => res.json())
+//     .then(response => {
+//         console.log("conunty", response);
 
-        document.querySelector('.location').textContent = `${response.city},${response.country}`;
+//         document.querySelector('.location').textContent = `Dhaka,${`;
 
-    });
+//     });
 
 // reloading by clicking the sync button
 document.querySelector('.sync').addEventListener('click', () => {
